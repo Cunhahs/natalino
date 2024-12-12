@@ -1,0 +1,71 @@
+body {
+  font-family: 'Arial', sans-serif;
+  text-align: center;
+  background: url('https://img.freepik.com/vetores-gratis/fundo-gradiente-de-ano-novo_23-2149151377.jpg') no-repeat center center;
+  background-size: cover;
+  color: white;
+  margin: 0;
+  padding: 0;
+}
+
+/* Container principal */
+#main-container {
+  margin: 50px auto;
+  width: 90%;
+  max-width: 500px;
+  padding: 20px;
+  background: rgba(0, 0, 0, 0.7);
+  border-radius: 10px;
+}
+
+/* Área de entrada de texto */
+textarea {
+  width: 90%;
+  height: 90px;
+  margin: 5px 0;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 16px;
+}
+
+/* Botão */
+button {
+  background: red;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: darkred;
+}
+
+/* Container do resultado */
+#result-container {
+  margin-top: 20px;
+  padding: 15px;
+  background: rgba(255, 255, 255, 0.8);
+  border-radius: 10px;
+  color: black;
+}
+
+#decoded-text {
+  font-size: 18px;
+  font-weight: bold;
+  margin: 0;
+  white-space: pre-wrap; /* Mantém formatação do texto */
+}
+
+/* Canvas para animações */
+canvas {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+}
