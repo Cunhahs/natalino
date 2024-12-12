@@ -1,1 +1,1 @@
-web: java -jar heroku-buildpack-java
+web: java -jar natalino.jar
