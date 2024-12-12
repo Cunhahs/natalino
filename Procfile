@@ -1,1 +1,1 @@
-spring init --dependencies=web demo
+web: java -jar natalino.jar
