@@ -1,1 +1,1 @@
-web:java -jar natalino.jar
+worker:java -jar natalino.jar
