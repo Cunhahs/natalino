@@ -1,1 +1,1 @@
-web: java -jar natalino.jar
+web: java -jar target/natalino-0.0.1-SNAPSHOT.jar
